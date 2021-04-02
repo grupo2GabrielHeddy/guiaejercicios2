@@ -72,6 +72,6 @@ int main()
   printf("el promedio de notas es: %.2lf\n",aritmetica);
   printf("la varianza de las notas es: %.4lf\n",var);
   printf("la desviación estandar de las notas es: %.4lf\n", std);
-  printf("la moda es: %f\n", notas[a]);
+  printf("la moda es: %.1f\n", notas[a]);
   return 0;
 }
